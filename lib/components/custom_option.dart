@@ -5,12 +5,10 @@ class CustomAnswerOption extends StatelessWidget {
   CustomAnswerOption({
     this.onTap,
     this.answer,
-    this.answers,
   });
 
   final Function(Answer) onTap;
   final Answer answer;
-  final List<Answer> answers;
 
   @override
   Widget build(BuildContext context) {

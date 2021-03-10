@@ -23,7 +23,6 @@ class _HomePageState extends State<HomePage> {
               for (var answer in answers)
                 CustomAnswerOption(
                   answer: answer,
-                  answers: answers,
                   onTap: (answerSelected) {
                     print('cliquei na opcao de id: ${answerSelected.id}');
                     setState(() {
